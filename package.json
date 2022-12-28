@@ -1,0 +1,22 @@
+{
+  "name": "remar",
+  "version": "1.0.0",
+  "description": "Remar S.O.S.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVKostin/Remar.git"
+  },
+  "author": "Alex Kostin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVKostin/Remar/issues"
+  },
+  "homepage": "https://github.com/AVKostin/Remar#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
