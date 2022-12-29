@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: space-between;
   height: 74px;
+
 }
 
 .header-border {
@@ -51,7 +52,7 @@
 
 
 .header-item {
-  padding-bottom: 21px;
+  /* padding-bottom: 21px; */
   padding-top: 21px;
   position: relative;
 }
@@ -70,7 +71,7 @@
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.04em;
-  margin-bottom: 32px;
+  margin-bottom: 21px;
   top: 26px;
   color: var(--primary-text-color);
   transition: color 300ms linear;
@@ -109,6 +110,7 @@
 
 .search {
   position: relative;
+  padding-top: 5px;
 }
 
 .search::before {
