@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* variables */
+
+:root {
+  --primary-text-color: #112e1b;
+  --accent-color: #568518;
+  --secondary-text-color: #568518;
+  --third-text-color: #525854: --accent-color: #568518;
+  --footer-bg-color: #F1F4E9;
+  --stroke-and-line: #e1e2df;
+  --copyright-color: #525854;
+  --join-bg-color: #568518;
+}
+
+
+
+/* ---------- Resets ---------- */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Container and base style---------- */
+body {
+  font-family: "Gilroy", sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  /* background-color: rgb(204, 196, 196); */
+}
+
+.link {
+  text-decoration: none;
+  transition: color 300ms linear, background-color 300ms linear;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 147px;
+  padding-right: 147px;
+  /* background-color: #ffffff; */
+  width: 1440px;
+}
+
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
