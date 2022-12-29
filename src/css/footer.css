@@ -1,0 +1,155 @@
+.footer {
+  padding-top: 133px;
+  height: 458px;
+  background-color: var(--footer-bg-color);
+  margin-top: -69px;
+  width: 100%;
+}
+
+.footer_contacts {
+  display: block;
+  margin: 0 auto;
+  max-width: 1146px;
+  height: 285px;
+  margin-bottom: 40px;
+  /* outline: 1px solid red */
+  /* background-color: #fff; */
+}
+
+.footer_social {
+  border-top: solid 1px;
+  border-color: var(--stroke-and-line);
+  height: 91px;
+  background-color: var(--footer-bg-color);
+  margin-bottom: 0%;
+  display: flex;
+}
+
+.footer-logo {
+  display: block;
+  padding-top: 22px;
+  max-width: 132px;
+}
+
+.footer_social__icons {
+  height: 54px;
+  max-width: 195px;
+
+}
+
+.footer_social_block {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-list {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 23px;
+}
+
+.social-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-item {
+  width: 48px;
+}
+
+.social-icon-footer {
+  fill: var(--accent-color);
+  margin: 12px;
+}
+
+.copyright {
+  padding-top: 34px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(26 / 14);
+  color: var(--copyright-color);
+
+}
+
+.contact_btn {
+  padding: 12px 24px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: #ffffff;
+  color: var(--accent-color);
+
+  text-transform: uppercase;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: color 300ms linear, background-color 300ms linear, box-shadow 300ms linear;
+  height: 48px;
+  margin-top: 11px;
+  width: 180px;
+}
+
+.contact_us {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  height: 145px;
+  background-color: var(--join-bg-color);
+  border-radius: 12px;
+  position: sticky;
+  padding: 40px;
+}
+
+.join_title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc (29 / 24);
+  color: #ffffff;
+}
+
+.join_text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.footer_menu {
+  display: flex;
+}
+
+.footer-all {
+  display: flex;
+}
+
+.contacts_list {
+  margin-right: 150px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.footer-menu_list {
+  margin-right: 53px;
+}
+
+.footer-menu_item {
+  margin-bottom: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.footer-menu_list-last {
+  margin-right: 45px;
+}

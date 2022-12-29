@@ -51,6 +51,7 @@
                     </ul>
                 </nav>
                 <div class="search">
+
                     <a class="search_lens">
                         <svg class="search_btn" width="24" height="24">
                             <use
@@ -67,9 +68,12 @@
 
         <!-- section Who we are -->
 
+      <main>
         <section class="hero">
+          <h2 class="visually-hidden">Как бы заголовок секции</h2>
             <div class="container">
-                <span class="section_name"> - who we are</span>
+                <div class="slider">
+                <h1 class="section_name"> who we are</h1>
                 <div class="hero_text_block">
                     <h1 class="hero_title">
                         We’re a nonprofit tackling one of the
@@ -107,39 +111,46 @@
             </div>
         </section>
 
-        <section class="preferences">
-            <div class="container">
-                <div class="pref_text_block">
-                    <div class="pref_text">
-                        Team members platea dictumst quisque sagittis purus.
-                        Pellentesque elit eget gravida cum sociis eget natoque.
-                    </div>
-                    <div class="preferences_number">460+</div>
-                </div>
-                <div class="pref_text_block">
-                    <div class="pref_text">
-                        In hac habitasse platea dictumst quisque sagittis purus.
-                        Pellentesque elit eget gravida cum sociis eget natoque.
-                    </div>
-                    <div class="preferences_number">200k+</div>
-                </div>
-                <div class="pref_text_block">
-                    <div class="pref_text">
-                        Year experience habitasse platea dictumst quisque
-                        sagittis purus. Pellentesque elit eget gravida cum.
-                    </div>
-                    <div class="preferences_number">12+</div>
-                </div>
+<section class="preferences">
+        <div class="container">
+            <div class="pref_text_section">
+            <div class="pref_text_block">
+                <p class="pref_text">
+                    Team members platea dictumst quisque sagittis purus. Pellentesque elit eget gravida cum sociis eget natoque.
+                </p>
+                <p class="preferences_number">
+                    460+
+                </p>
             </div>
-        </section>
+
+            <div class="pref_text_block">
+                <p class="pref_text">
+                    In hac habitasse platea dictumst quisque sagittis purus. Pellentesque elit eget gravida cum sociis eget natoque.
+                </p>
+                <p class="preferences_number">
+                    200k+
+                </p>
+            </div>
+
+            <div class="pref_text_block">
+                <p class="pref_text">
+                    Year experience habitasse platea dictumst quisque sagittis purus. Pellentesque elit eget gravida cum.
+                </p>
+                <p class="preferences_number">
+                    12+
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
 
         <section class="container">
             <!-- section Who we are -->
             <div class="about">
-                <div class="about_title">
+                <h3 class="about_title">
                     About <br />
                     Remar SOS
-                </div>
+                </h3>
                 <div class="about_text">
                     <span class="about_text__bold"
                         >Massa vitae tortor condimentum lacinia quis. Etiam
@@ -206,7 +217,7 @@
         <section class="approach">
             <div class="container">
                 <!-- section Our approach -->
-                <span class="section_name"> - Our approach</span>
+                <h2 class="section_name"> Our approach</h2>
                 <div class="approach_group">
                     <div class="vision_title">
                         Other sources of <br />fundraising
@@ -218,15 +229,66 @@
                         total. Next, we detail said income:
                     </div>
                 </div>
-                <div class="approach_table"></div>
+                <div class="approach_table">
+                    <div class="approach_item">
+                        <svg class="approach-icon" width="36" height="36">
+                            <use
+                                href="./src/images/sprite.svg#icon-reporting"
+                            ></use>
+                        </svg>
+
+                        <h3 class="approach_category">Reporting</h3>
+                        <h2 class="approach_title">
+                            Eu feugiat pretium nibh ipsum consequat nisl vel.
+                        </h2>
+                        <p class="approach_description">
+                            Quam vulputate dignissim suspendisse in est. Tempus
+                            quam pellentesque nec.
+                        </p>
+                    </div>
+
+                    <div class="approach_item">
+                        <svg class="approach-icon" width="36" height="36">
+                            <use
+                                href="./src/images/sprite.svg#icon-inventory"
+                            ></use>
+                        </svg>
+
+                        <h3 class="approach_category">Inventory</h3>
+                        <h2 class="approach_title">
+                            Eu feugiat pretium nibh ipsum consequat nisl vel.
+                        </h2>
+                        <p class="approach_description">
+                            Quam vulputate dignissim suspendisse in est. Tempus
+                            quam pellentesque nec.
+                        </p>
+                    </div>
+
+                    <div class="approach_item">
+                        <svg class="approach-icon" width="36" height="36">
+                            <use
+                                href="./src/images/sprite.svg#icon-contacts"
+                            ></use>
+                        </svg>
+
+                        <h3 class="approach_category">Contacts</h3>
+                        <h2 class="approach_title">
+                            Eu feugiat pretium nibh ipsum consequat nisl vel.
+                        </h2>
+                        <p class="approach_description">
+                            Quam vulputate dignissim suspendisse in est. Tempus
+                            quam pellentesque nec.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="time-to-do">
             <div class="container">
                 <!-- section Time To Do -->
-                <span class="section_name">
-                    - It’s hight time to do the same</span
+                <h3 class="section_name">
+                    It’s hight time to do the same</h3
                 >
                 <div class="approach_group">
                     <div class="vision_title">
@@ -297,150 +359,182 @@
                 </div>
             </div>
         </section>
+      </main>
 
         <!--  footer -->
 
-        <footer class="footer">
-            <div class="container">
-                <div class="footer-all footer_contacts">
-                    <p class="contacts_list">
-                        OUR CONTACTS<br /><br />
-                        sed arcu. At auctor<br /><br />
-                        urna nunc id. Massa<br /><br />
-                        sed elementum tempus<br /><br />
-                        egestas sed sed<br /><br />
-                        risus. Neque vitae<br /><br />
-                        tempus quam pellent
-                    </p>
-                    <div class="footer_menu">
-                        <div>
-                            <ul class="footer-menu_list list">
-                                <li class="footer-menu_item">WHO WE ARE</li>
-                                <li class="footer-menu_item">Who we are</li>
-                                <li class="footer-menu_item">Our Mission</li>
-                                <li class="footer-menu_item">History</li>
-                                <li class="footer-menu_item">Our Sponsors</li>
-                                <li class="footer-menu_item">
-                                    How Sponsorship Goes
-                                </li>
-                                <li class="footer-menu_item">Why Trust Us?</li>
-                                <li class="footer-menu_item">
-                                    Corporate Strategy
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul class="footer-menu_list list">
-                                <li class="footer-menu_item">Our work</li>
-                                <li class="footer-menu_item">Our work</li>
-                                <li class="footer-menu_item">Where we work</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul class="footer-menu_list list">
-                                <li class="footer-menu_item">Get involved</li>
-                                <li class="footer-menu_item">
-                                    Become a volunteer
-                                </li>
-                                <li class="footer-menu_item">Donate</li>
-                                <li class="footer-menu_item">Support us</li>
-                                <li class="footer-menu_item">
-                                    Become a Partner
-                                </li>
-                                <li class="footer-menu_item">Contact us</li>
-                                <li class="footer-menu_item">Career</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul class="footer-menu_list-last list">
-                                <li class="footer-menu_item">Other Pages</li>
-                                <li class="footer-menu_item">
-                                    Media & Resources
-                                </li>
-                                <li class="footer-menu_item">Our Mission</li>
-                                <li class="footer-menu_item">Blog</li>
-                                <li class="footer-menu_item">Stay in touch</li>
-                            </ul>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-all footer_contacts">
+                        <addres class="contacts_list">
+                            OUR CONTACTS<br /><br />
+                            Contact us from Monday to Friday <br /><br />
+                            ufrom 10 a.m. to 8 p.m.<br /><br />
+                            310-437-2766<br /><br />
+                            310-437-2766<br /><br />
+                            remar.sos@gmail.com<br /><br />
+                            706 Campfire Ave. Meriden
+                        </addres>
+                        <div class="footer_menu">
+                            <div>
+                                <ul class="footer-menu_list list">
+                                    <li class="footer-menu_item">WHO WE ARE</li>
+                                    <li class="footer-menu_item">Who we are</li>
+                                    <li class="footer-menu_item">
+                                        Our Mission
+                                    </li>
+                                    <li class="footer-menu_item">History</li>
+                                    <li class="footer-menu_item">
+                                        Our Sponsors
+                                    </li>
+                                    <li class="footer-menu_item">
+                                        How Sponsorship Goes
+                                    </li>
+                                    <li class="footer-menu_item">
+                                        Why Trust Us?
+                                    </li>
+                                    <li class="footer-menu_item">
+                                        Corporate Strategy
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="footer-menu_list list">
+                                    <li class="footer-menu_item">Our work</li>
+                                    <li class="footer-menu_item">Our work</li>
+                                    <li class="footer-menu_item">
+                                        Where we work
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="footer-menu_list list">
+                                    <li class="footer-menu_item">
+                                        Get involved
+                                    </li>
+                                    <li class="footer-menu_item">
+                                        Become a volunteer
+                                    </li>
+                                    <li class="footer-menu_item">Donate</li>
+                                    <li class="footer-menu_item">Support us</li>
+                                    <li class="footer-menu_item">
+                                        Become a Partner
+                                    </li>
+                                    <li class="footer-menu_item">Contact us</li>
+                                    <li class="footer-menu_item">Career</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="footer-menu_list-last list">
+                                    <li class="footer-menu_item">
+                                        Other Pages
+                                    </li>
+                                    <li class="footer-menu_item">
+                                        Media & Resources
+                                    </li>
+                                    <li class="footer-menu_item">
+                                        Our Mission
+                                    </li>
+                                    <li class="footer-menu_item">Blog</li>
+                                    <li class="footer-menu_item">
+                                        Stay in touch
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="footer_social">
-                <div class="container">
-                    <div class="footer_social_block">
-                        <a href="/" class="footer-logo link">
-                            <img
-                                alt="Remar S.O.S."
-                                src="./src/images/Logo_132.webp"
-                        /></a>
 
-                        <div class="footer_social__icons">
-                            <ul class="social-list list">
-                                <li class="social-item">
-                                    <a href="" class="social-icon-footer link">
-                                        <svg
-                                            class="social-icon-footer"
-                                            width="24"
-                                            height="24"
-                                        >
-                                            <use
-                                                href="./src/images/sprite.svg#icon-facebook"
-                                            ></use>
-                                        </svg>
-                                    </a>
-                                </li>
+                <div class="footer_social">
+                    <div class="container">
+                        <div class="footer_social_block">
+                            <a href="/" class="footer-logo link">
+                                <img
+                                    alt="Remar S.O.S."
+                                    src="./src/images/Logo_132.webp"
+                            /></a>
 
-                                <li class="social-item">
-                                    <a href="" class="social-icon-footer link">
-                                        <svg
-                                            class="social-icon-footer"
-                                            width="24"
-                                            height="24"
+                            <div class="footer_social__icons">
+                                <ul class="social-list list">
+                                    <li class="social-item">
+                                        <a
+                                            href=""
+                                            class="social-icon-footer link"
                                         >
-                                            <use
-                                                href="./src/images/sprite.svg#icon-twitter"
-                                            ></use>
-                                        </svg>
-                                    </a>
-                                </li>
+                                            <svg
+                                                class="social-icon-footer"
+                                                width="24"
+                                                height="24"
+                                            >
+                                                <use
+                                                    href="./src/images/sprite.svg#icon-facebook"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
 
-                                <li class="social-item">
-                                    <a href="" class="social-icon-footer link">
-                                        <svg
-                                            class="social-icon-footer"
-                                            width="24"
-                                            height="24"
+                                    <li class="social-item">
+                                        <a
+                                            href=""
+                                            class="social-icon-footer link"
                                         >
-                                            <use
-                                                href="./src/images/sprite.svg#icon-instagram"
-                                            ></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-item">
-                                    <a href="" class="social-icon-footer link">
-                                        <svg
-                                            class="social-icon-footer"
-                                            width="24"
-                                            height="24"
+                                            <svg
+                                                class="social-icon-footer"
+                                                width="24"
+                                                height="24"
+                                            >
+                                                <use
+                                                    href="./src/images/sprite.svg#icon-twitter"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-item">
+                                        <a
+                                            href=""
+                                            class="social-icon-footer link"
                                         >
-                                            <use
-                                                href="./src/images/sprite.svg#icon-youtube"
-                                            ></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="copyright">
-                            &copy; 2000
-                            <script>
-                                new Date().getFullYear() > 2010 &&
-                                    document.write(
-                                        "-" + new Date().getFullYear(),
-                                    );
-                            </script>
-                            , Remar. All Rights Reserved.
+                                            <svg
+                                                class="social-icon-footer"
+                                                width="24"
+                                                height="24"
+                                            >
+                                                <use
+                                                    href="./src/images/sprite.svg#icon-instagram"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a
+                                            href=""
+                                            class="social-icon-footer link"
+                                        >
+                                            <svg
+                                                class="social-icon-footer"
+                                                width="24"
+                                                height="24"
+                                            >
+                                                <use
+                                                    href="./src/images/sprite.svg#icon-youtube"
+                                                ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="copyright">
+                                &copy; 2000
+                                <script>
+                                    new Date().getFullYear() > 2010 &&
+                                        document.write(
+                                            "-" + new Date().getFullYear(),
+                                        );
+                                </script>
+                                , Remar. All Rights Reserved.
+                            </div>
                         </div>
                     </div>
                 </div>

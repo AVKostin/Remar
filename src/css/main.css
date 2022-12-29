@@ -1,0 +1,117 @@
+.pref_text {
+  width: 335px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  padding-top: 30px;
+}
+
+
+.preferences_number {
+  display: contents;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 108%;
+}
+
+.pref_text_block {
+  display: inline-block;
+}
+
+.pref_text_section {
+  border-top: solid 1px;
+  border-color: var(--stroke-and-line);
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about,
+.vision,
+.together {
+  display: flex;
+  margin-top: 120px;
+
+}
+
+.about_title,
+.vision_title,
+.together_title {
+  width: 392px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: calc(44 / 32);
+}
+
+.about_text,
+.vision_text,
+.together_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  width: 754px;
+}
+
+.together_text__bold,
+.about_text__bold {
+  font-weight: 600;
+}
+
+.approach,
+.time-to-do {
+  margin-top: 120px;
+}
+
+.approach_table {
+  background-color: var(--footer-bg-color);
+  height: 324px;
+  max-width: 1146px;
+  margin-top: 40px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.approach_group {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.approach_item {
+  width: 328px;
+}
+
+.approach-icon {
+  width: 36px;
+}
+
+.approach_category {
+  color: var(--accent-color);
+  margin-top: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+.approach_title {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc(29 / 24);
+}
+
+.approach_description {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.people_line {
+  margin: 0 auto;
+  height: 169px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
